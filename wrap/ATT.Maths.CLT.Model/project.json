@@ -7,6 +7,13 @@
         "assembly": "../../ATT.Maths.CLT.Model/obj/{configuration}/ATT.Maths.CLT.Model.dll",
         "pdb": "../../ATT.Maths.CLT.Model/obj/{configuration}/ATT.Maths.CLT.Model.pdb"
       }
+    },
+    "net45+win+MonoAndroid10+Xamarin.iOS10+MonoTouch10": {
+      "wrappedProject": "../../ATT.Maths.CLT.Model/ATT.Maths.Models.csproj",
+      "bin": {
+        "assembly": "../../ATT.Maths.CLT.Model/obj/{configuration}/ATT.Maths.CLT.Model.dll",
+        "pdb": "../../ATT.Maths.CLT.Model/obj/{configuration}/ATT.Maths.CLT.Model.pdb"
+      }
     }
   }
 }

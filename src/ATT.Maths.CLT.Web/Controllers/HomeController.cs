@@ -7,56 +7,38 @@ using Chart.Mvc;
 using Chart.Mvc.ComplexChart;
 using ATT.Maths.Models;
 using System.Collections;
+using ATT.Maths.CLT.Web.ViewModels;
 
 namespace ATT.Maths.CLT.Web.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(LineChartViewModel model)
         {
-            int sampleSize = 100;
-            int minValue = 1;
-            int maxValue = 10;
-
-            LineChart chart = this.GetChart(minValue, maxValue,
-                    this.GetMeans(sampleSize, minValue, maxValue));
-            return View(chart);
+            LineChart chart = this.GetChart(model.MinValue, model.MaxValue,
+                    this.GetMeanFrequencies(
+                        model.SampleSize, model.NumberOfSamples, model.MinValue, model.MaxValue));
+            model.LineChart = chart;
+            return View(model);
         }
 
-        private double[] GetMeans(int sampleSize, int minValue, int maxValue)
+        private SortedDictionary<double, double> GetMeanFrequencies(int sampleSize, int numberOfSamples, int minValue, int maxValue)
         {
-            var clt = new CentralLimitTheorem(sampleSize, minValue, maxValue);
-            int numOfSamples = 100;
-            double[] means = new double[numOfSamples];
+            var clt = new CentralLimitTheorem(sampleSize, numberOfSamples, minValue, maxValue);
+            SortedDictionary<double, double> meanFrequencies = clt.GetFrequencyOfMeans();
 
-            for (int index = 0; index < numOfSamples; index++)
-            {
-                double mean = clt.GetMeanValue();
-                means[index] = mean;
-            }
-
-            return means;
+            return meanFrequencies;
         }
 
-        private LineChart GetChart(int minValue, int maxValue, double[] means)
+        private LineChart GetChart(int minValue, int maxValue, SortedDictionary<double, double> means)
         {
-            int current = minValue;
-            int endRange = maxValue - minValue;
-            string[] labelRange = new string[endRange + 1];
-            
-            for (int index = 0; index <= endRange; index++)
-            {
-                labelRange[index] = current.ToString();
-                current++;
-            }
-
             var chart = new LineChart();
-            chart.ComplexData.Labels.AddRange(labelRange);
+            chart.ComplexData.Labels.AddRange(means.Keys.Select(m => m.ToString()).ToArray());
             chart.ComplexData.Datasets.AddRange(new List<ComplexDataset>
             {
                 new ComplexDataset
                 {
-                    Data = means.ToList(),
+                    Data = means.Values.ToList(),
                     Label = "Means"
                 }
             });

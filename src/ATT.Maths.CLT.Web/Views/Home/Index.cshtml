@@ -1,7 +1,7 @@
 ﻿@using Chart.Mvc6.TagHelpers
 @addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
 @addTagHelper "*, Chart.Mvc6"
-@model Chart.Mvc.ComplexChart.LineChart
+@model ATT.Maths.CLT.Web.ViewModels.LineChartViewModel
 
 <!doctype html>
 <html lang="en">
@@ -13,7 +13,10 @@
     <meta name="author" content="">
 
     <title>Central Limit Theorem</title>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/app.css" />
     <script src="~/js/Chart.js" type="text/javascript"></script>
+    <script src="~/js/bootstrap.min.js"></script>
 
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -22,7 +25,46 @@
 
 </head> 
 <body>
-    <h3>Central Limit Theorem</h3>
-    <line-chart Chart="@Model"></line-chart>
+    <form asp-controller="Home" asp-action="Index" method="post" role="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Central Limit Theorem</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="sampleSize" class="label">Sample Size</label>
+                            <input asp-for="@Model.SampleSize" id="sampleSize" type="text" class="form-control" style="width: 100px;" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="numSamples" class="label"># Samples</label>
+                            <input asp-for="@Model.NumberOfSamples" id="numSamples" type="text" class="form-control" style="width: 100px;" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="minimum" class="label">Minimum</label>
+                            <input asp-for="@Model.MinValue" id="minimum" type="text" class="form-control" style="width: 100px;" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="maximum" class="label">Maximum</label>
+                            <input asp-for="@Model.MaxValue" id="maximum" type="text" class="form-control" style="width: 100px;" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-primary" value="Refresh" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <line-chart Chart="@Model.LineChart" Width="800" Height="400"></line-chart>
+                </div>
+            </div>
+        </div>
+    </form>
 </body>
 </html>

@@ -7,6 +7,12 @@
         "type": "project",
         "framework": ".NETPortable,Version=v4.5,Profile=Profile7"
       },
+      "bootstrap/4.0.0-alpha2": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "2.0.0"
+        }
+      },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
         "framework": "DNX,Version=v4.5.1",
@@ -22,7 +28,7 @@
           "jquery-globalize": "[0.1.1, 1.0.0)"
         }
       },
-      "jQuery/1.11.3": {
+      "jQuery/2.0.0": {
         "type": "package"
       },
       "jquery-globalize/0.1.1": {
@@ -1634,12 +1640,21 @@
         "runtime": {
           "lib/net45/_._": {}
         }
+      },
+      "Twitter.Bootstrap.Bootswatch.Cyborg/3.2.0": {
+        "type": "package"
       }
     },
     "DNXCore,Version=v5.0": {
       "ATT.Maths.CLT.Model/1.0.0": {
         "type": "project",
         "framework": ".NETPortable,Version=v4.5,Profile=Profile7"
+      },
+      "bootstrap/4.0.0-alpha2": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "2.0.0"
+        }
       },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
@@ -1656,7 +1671,7 @@
           "jquery-globalize": "[0.1.1, 1.0.0)"
         }
       },
-      "jQuery/1.11.3": {
+      "jQuery/2.0.0": {
         "type": "package"
       },
       "jquery-globalize/0.1.1": {
@@ -3844,6 +3859,9 @@
         "runtime": {
           "lib/dotnet5.4/System.Xml.XDocument.dll": {}
         }
+      },
+      "Twitter.Bootstrap.Bootswatch.Cyborg/3.2.0": {
+        "type": "package"
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
@@ -3851,6 +3869,12 @@
         "type": "project",
         "framework": ".NETPortable,Version=v4.5,Profile=Profile7"
       },
+      "bootstrap/4.0.0-alpha2": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "2.0.0"
+        }
+      },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
         "framework": "DNX,Version=v4.5.1",
@@ -3866,7 +3890,7 @@
           "jquery-globalize": "[0.1.1, 1.0.0)"
         }
       },
-      "jQuery/1.11.3": {
+      "jQuery/2.0.0": {
         "type": "package"
       },
       "jquery-globalize/0.1.1": {
@@ -5481,6 +5505,9 @@
         "runtime": {
           "lib/net45/_._": {}
         }
+      },
+      "Twitter.Bootstrap.Bootswatch.Cyborg/3.2.0": {
+        "type": "package"
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
@@ -5488,6 +5515,12 @@
         "type": "project",
         "framework": ".NETPortable,Version=v4.5,Profile=Profile7"
       },
+      "bootstrap/4.0.0-alpha2": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "2.0.0"
+        }
+      },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
         "framework": "DNX,Version=v4.5.1",
@@ -5503,7 +5536,7 @@
           "jquery-globalize": "[0.1.1, 1.0.0)"
         }
       },
-      "jQuery/1.11.3": {
+      "jQuery/2.0.0": {
         "type": "package"
       },
       "jquery-globalize/0.1.1": {
@@ -7118,12 +7151,21 @@
         "runtime": {
           "lib/net45/_._": {}
         }
+      },
+      "Twitter.Bootstrap.Bootswatch.Cyborg/3.2.0": {
+        "type": "package"
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
       "ATT.Maths.CLT.Model/1.0.0": {
         "type": "project",
         "framework": ".NETPortable,Version=v4.5,Profile=Profile7"
+      },
+      "bootstrap/4.0.0-alpha2": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "2.0.0"
+        }
       },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
@@ -7140,7 +7182,7 @@
           "jquery-globalize": "[0.1.1, 1.0.0)"
         }
       },
-      "jQuery/1.11.3": {
+      "jQuery/2.0.0": {
         "type": "package"
       },
       "jquery-globalize/0.1.1": {
@@ -9737,12 +9779,21 @@
         "runtime": {
           "lib/dotnet5.4/System.Xml.XDocument.dll": {}
         }
+      },
+      "Twitter.Bootstrap.Bootswatch.Cyborg/3.2.0": {
+        "type": "package"
       }
     },
     "DNXCore,Version=v5.0/win7-x64": {
       "ATT.Maths.CLT.Model/1.0.0": {
         "type": "project",
         "framework": ".NETPortable,Version=v4.5,Profile=Profile7"
+      },
+      "bootstrap/4.0.0-alpha2": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "2.0.0"
+        }
       },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
@@ -9759,7 +9810,7 @@
           "jquery-globalize": "[0.1.1, 1.0.0)"
         }
       },
-      "jQuery/1.11.3": {
+      "jQuery/2.0.0": {
         "type": "package"
       },
       "jquery-globalize/0.1.1": {
@@ -12356,6 +12407,9 @@
         "runtime": {
           "lib/dotnet5.4/System.Xml.XDocument.dll": {}
         }
+      },
+      "Twitter.Bootstrap.Bootswatch.Cyborg/3.2.0": {
+        "type": "package"
       }
     }
   },
@@ -12366,7 +12420,22 @@
     },
     "Chart.Mvc6/1.0.0": {
       "type": "project",
-      "path": "../../../../Chart.Mvc/Chart.Mvc/Chart.Mvc6/Chart.Mvc6/project.json"
+      "path": "../../../Open Source Projects/Chart.Mvc/Chart.Mvc/Chart.Mvc6/Chart.Mvc6/project.json"
+    },
+    "bootstrap/4.0.0-alpha2": {
+      "type": "package",
+      "sha512": "2HujRwD77wsbg+d+56TAOMEIsNx6QYAYNcxjxU/AdGw4uWPLCgy9rt0/DK4Rd3mBgr07WkdOuoENOcY1TpjA/w==",
+      "files": [
+        "bootstrap.4.0.0-alpha2.nupkg",
+        "bootstrap.4.0.0-alpha2.nupkg.sha512",
+        "bootstrap.nuspec",
+        "content/Content/bootstrap.css",
+        "content/Content/bootstrap.css.map",
+        "content/Content/bootstrap.min.css",
+        "content/Content/bootstrap.min.css.map",
+        "content/Scripts/bootstrap.js",
+        "content/Scripts/bootstrap.min.js"
+      ]
     },
     "ChartJS/15.2.10": {
       "type": "package",
@@ -12428,20 +12497,20 @@
         "tools/install.ps1"
       ]
     },
-    "jQuery/1.11.3": {
+    "jQuery/2.0.0": {
       "type": "package",
-      "sha512": "ymvj+/1xi/6zWPhJxZOPoPTunO6/ONr34BzLdwIR4Wjkfz2lmtmVRt/Nqnw7hp+u4JiF/gF0Hwi8al2tNaIrrg==",
+      "sha512": "u3YiE0QnFnBExPkBPqWr2EVd8nh01iQlMWPRfa7b1fQ53YuMtHw+Y9oaJukHtEHaMpyL0PJzq69y3/5AxWogGA==",
       "files": [
-        "Content/Scripts/jquery-1.11.3.js",
-        "Content/Scripts/jquery-1.11.3.min.js",
-        "Content/Scripts/jquery-1.11.3.min.map",
-        "Content/Scripts/jquery-1.11.3-vsdoc.js",
-        "jQuery.1.11.3.nupkg",
-        "jQuery.1.11.3.nupkg.sha512",
+        "Content/Scripts/jquery-2.0.0.js",
+        "Content/Scripts/jquery-2.0.0.min.js",
+        "Content/Scripts/jquery-2.0.0.min.map",
+        "Content/Scripts/jquery-2.0.0-vsdoc.js",
+        "jQuery.2.0.0.nupkg",
+        "jQuery.2.0.0.nupkg.sha512",
         "jQuery.nuspec",
         "Tools/common.ps1",
         "Tools/install.ps1",
-        "Tools/jquery-1.11.3.intellisense.js",
+        "Tools/jquery-2.0.0.intellisense.js",
         "Tools/uninstall.ps1"
       ]
     },
@@ -16108,7 +16177,7 @@
     "System.Reflection.Metadata/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "RLIE4sSt2zngMLuqM6YmxBH99mTumtT4DNZE4+msfEaInUP5iCLQT+BHPl+2cjSAP1pdALyAjLB8RtCB+WGGWQ==",
+      "sha512": "a8VsRm/B0Ik1o5FumSMWmpwbG7cvIIajAYhzTTy9VB9XItByJDQHGZkQTIAdsvVJ6MI5O3uH/lb0izgQDlDIWA==",
       "files": [
         "lib/dotnet5.2/System.Reflection.Metadata.dll",
         "lib/dotnet5.2/System.Reflection.Metadata.xml",
@@ -16156,7 +16225,7 @@
     "System.Reflection.TypeExtensions/4.0.1-beta-23409": {
       "type": "package",
       "serviceable": true,
-      "sha512": "n8m144jjCwhN/qtLih35a2sO33fLWm1U3eg51KxqAcAjJcw0nq1zWie8FZognBTPv7BXdW/G8xGbbvDGFoJwZA==",
+      "sha512": "Q3FiCsJ/4s2nuyhOHAFhc0Te10LzPjv6QzVcywA3oWI1msfDg583RIXQ9YifDfOuig+wg+SX0p133qV71HVfyw==",
       "files": [
         "lib/DNXCore50/de/System.Reflection.TypeExtensions.xml",
         "lib/DNXCore50/es/System.Reflection.TypeExtensions.xml",
@@ -17403,7 +17472,7 @@
     "System.Threading.Overlapped/4.0.0-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "b/6NGx57OjaAXZsKoxdXvPGteQn5EfLwIWww/FjcrhuO3ZkDPjQZ2BKSxMhOnyEFsNDDhytiVMDqQcFsKSKC0A==",
+      "sha512": "IMVmv9x4lBiy+jz31dU7KT/aTDlKZabAEDFAxQOTv//v1RYu5XZXZLIiTZqyVUKxxHgB0PUnuSDl5VxUDKysfQ==",
       "files": [
         "lib/DNXCore50/System.Threading.Overlapped.dll",
         "lib/net46/System.Threading.Overlapped.dll",
@@ -17749,22 +17818,38 @@
         "System.Xml.XDocument.4.0.11-beta-23516.nupkg.sha512",
         "System.Xml.XDocument.nuspec"
       ]
+    },
+    "Twitter.Bootstrap.Bootswatch.Cyborg/3.2.0": {
+      "type": "package",
+      "sha512": "BcTCtM+Yv3dnIwX/8Qm3ZeAM/Klp/itG7lHOc5llsXpywVKkRC9MASUoHQNbMKbtCnAfU0e8tX/o+ZjBWWjzig==",
+      "files": [
+        "content/Content/bootstrap.cyborg.css",
+        "content/Content/bootstrap.cyborg.min.css",
+        "Twitter.Bootstrap.Bootswatch.Cyborg.3.2.0.nupkg",
+        "Twitter.Bootstrap.Bootswatch.Cyborg.3.2.0.nupkg.sha512",
+        "Twitter.Bootstrap.Bootswatch.Cyborg.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "ChartJS >= 15.2.10",
       "Microsoft.AspNet.Mvc >= 6.0.0-rc1-final",
-      "Chart.Mvc6 >= 1.0.0-*",
-      "ATT.Maths.CLT.Model >= 1.0.0-*",
       "Microsoft.AspNet.Server.Kestrel >= 1.0.0-rc1-final",
       "Microsoft.AspNet.Server.WebListener >= 1.0.0-rc1-final",
       "Microsoft.AspNet.IISPlatformHandler >= 1.0.0-rc1-final",
       "Microsoft.AspNet.Mvc.TagHelpers >= 6.0.0-rc1-final",
       "Microsoft.AspNet.Tooling.Razor >= 1.0.0-rc1-final",
-      "Microsoft.AspNet.StaticFiles >= 1.0.0-rc1-final"
+      "Microsoft.AspNet.StaticFiles >= 1.0.0-rc1-final",
+      "Chart.Mvc6 >= 1.0.0-*",
+      "bootstrap >= 4.0.0-alpha2",
+      "Twitter.Bootstrap.Bootswatch.Cyborg >= 3.2.0"
     ],
-    "DNX,Version=v4.5.1": [],
-    "DNXCore,Version=v5.0": []
+    "DNX,Version=v4.5.1": [
+      "ATT.Maths.CLT.Model >= 1.0.0-*"
+    ],
+    "DNXCore,Version=v5.0": [
+      "ATT.Maths.CLT.Model >= 1.0.0-*"
+    ]
   }
 }

@@ -7,17 +7,17 @@ namespace ATT.Maths.Models.Tests
     public class CentralLimitTheoremTests
     {
         [Test]
-        public void GetMeanTest()
+        public void GetMeanSampleTest()
         {
             int minNumber = 1;
             int maxNumber = 6;
             int sampleSize = 4;
+            int numberOfSamples = 1000;
 
-            var clt = new CentralLimitTheorem(sampleSize, minNumber, maxNumber);
-            double mean = clt.GetMeanValue();
+            var clt = new CentralLimitTheorem(sampleSize, numberOfSamples, minNumber, maxNumber);
+            double[] samples = clt.GetMeanSamples();
 
-            Assert.Greater(mean, minNumber);
-            Assert.Less(mean, maxNumber);
+            Assert.Equals(numberOfSamples, samples.Length);
         }
 
         [Test]
@@ -26,8 +26,9 @@ namespace ATT.Maths.Models.Tests
             int minNumber = 1;
             int maxNumber = 6;
             int sampleSize = 4;
+            int numberOfSamples = 1000;
 
-            var clt = new CentralLimitTheorem(sampleSize, minNumber, maxNumber);
+            var clt = new CentralLimitTheorem(sampleSize, numberOfSamples, minNumber, maxNumber);
             double randomNumber = clt.GetRandomNumber();
 
             Assert.Greater(randomNumber, minNumber);

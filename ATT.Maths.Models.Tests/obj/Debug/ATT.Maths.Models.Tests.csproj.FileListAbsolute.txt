@@ -1,0 +1,9 @@
+C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.Models.Tests\bin\Debug\ATT.Maths.Models.Tests.dll
+C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.Models.Tests\bin\Debug\ATT.Maths.Models.Tests.pdb
+C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.Models.Tests\bin\Debug\ATT.Maths.CLT.Model.dll
+C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.Models.Tests\bin\Debug\nunit.framework.dll
+C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.Models.Tests\bin\Debug\ATT.Maths.CLT.Model.pdb
+C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.Models.Tests\bin\Debug\nunit.framework.xml
+C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.Models.Tests\obj\Debug\ATT.Maths.Models.Tests.csprojResolveAssemblyReference.cache
+C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.Models.Tests\obj\Debug\ATT.Maths.Models.Tests.dll
+C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.Models.Tests\obj\Debug\ATT.Maths.Models.Tests.pdb

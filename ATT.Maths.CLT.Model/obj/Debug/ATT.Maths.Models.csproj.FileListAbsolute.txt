@@ -1,9 +1,0 @@
-C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.CLT.Model\bin\Debug\ATT.Maths.CLT.Model.dll
-C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.CLT.Model\bin\Debug\ATT.Maths.CLT.Model.pdb
-C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.CLT.Model\obj\Debug\ATT.Maths.CLT.Model.dll
-C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.CLT.Model\obj\Debug\ATT.Maths.CLT.Model.pdb
-C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\ATT.Maths.CLT.Model\obj\Debug\ATT.Maths.Models.csprojResolveAssemblyReference.cache
-C:\Users\leeda_000\Documents\src\ATT.Maths\ATT.Maths.CLT.Model\bin\Debug\ATT.Maths.CLT.Model.dll
-C:\Users\leeda_000\Documents\src\ATT.Maths\ATT.Maths.CLT.Model\bin\Debug\ATT.Maths.CLT.Model.pdb
-C:\Users\leeda_000\Documents\src\ATT.Maths\ATT.Maths.CLT.Model\obj\Debug\ATT.Maths.CLT.Model.dll
-C:\Users\leeda_000\Documents\src\ATT.Maths\ATT.Maths.CLT.Model\obj\Debug\ATT.Maths.CLT.Model.pdb

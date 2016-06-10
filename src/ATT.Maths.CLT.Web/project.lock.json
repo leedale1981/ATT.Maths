@@ -3,9 +3,9 @@
   "version": 2,
   "targets": {
     "DNX,Version=v4.5.1": {
-      "ATT.Maths.CLT.Model/1.0.0": {
+      "ATT.Maths.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETPortable,Version=v4.5,Profile=Profile7"
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "bootstrap/4.0.0-alpha2": {
         "type": "package",
@@ -1642,9 +1642,9 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x86": {
-      "ATT.Maths.CLT.Model/1.0.0": {
+      "ATT.Maths.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETPortable,Version=v4.5,Profile=Profile7"
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "bootstrap/4.0.0-alpha2": {
         "type": "package",
@@ -3284,9 +3284,9 @@
       }
     },
     "DNX,Version=v4.5.1/win7-x64": {
-      "ATT.Maths.CLT.Model/1.0.0": {
+      "ATT.Maths.Models/1.0.0": {
         "type": "project",
-        "framework": ".NETPortable,Version=v4.5,Profile=Profile7"
+        "framework": ".NETFramework,Version=v4.5.1"
       },
       "bootstrap/4.0.0-alpha2": {
         "type": "package",
@@ -4927,9 +4927,9 @@
     }
   },
   "libraries": {
-    "ATT.Maths.CLT.Model/1.0.0": {
+    "ATT.Maths.Models/1.0.0": {
       "type": "project",
-      "path": "../../wrap/ATT.Maths.CLT.Model/project.json"
+      "path": "../../wrap/ATT.Maths.Models/project.json"
     },
     "Chart.Mvc6/1.0.0": {
       "type": "project",
@@ -7297,12 +7297,11 @@
       "Microsoft.AspNet.Mvc.TagHelpers >= 6.0.0-rc1-final",
       "Microsoft.AspNet.Tooling.Razor >= 1.0.0-rc1-final",
       "Microsoft.AspNet.StaticFiles >= 1.0.0-rc1-final",
-      "Chart.Mvc6 >= 1.0.0-*",
       "bootstrap >= 4.0.0-alpha2",
       "Twitter.Bootstrap.Bootswatch.Cyborg >= 3.2.0"
     ],
     "DNX,Version=v4.5.1": [
-      "ATT.Maths.CLT.Model >= 1.0.0-*",
+      "ATT.Maths.Models >= 1.0.0-*",
       "Chart.Mvc6 >= 1.0.0-*"
     ]
   }

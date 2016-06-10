@@ -16,7 +16,7 @@
     <DevelopmentServerPort>52592</DevelopmentServerPort>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ATT.Maths.CLT.Model\ATT.Maths.Models.csproj" />
+    <ProjectReference Include="..\..\ATT.Maths.Models\ATT.Maths.Models.csproj" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>

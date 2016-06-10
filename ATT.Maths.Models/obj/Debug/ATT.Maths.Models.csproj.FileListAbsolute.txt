@@ -1,0 +1,4 @@
+C:\Users\leeda_000\Documents\src\ATT.Maths\ATT.Maths.Models\bin\Debug\ATT.Maths.Models.dll
+C:\Users\leeda_000\Documents\src\ATT.Maths\ATT.Maths.Models\bin\Debug\ATT.Maths.Models.pdb
+C:\Users\leeda_000\Documents\src\ATT.Maths\ATT.Maths.Models\obj\Debug\ATT.Maths.Models.dll
+C:\Users\leeda_000\Documents\src\ATT.Maths\ATT.Maths.Models\obj\Debug\ATT.Maths.Models.pdb

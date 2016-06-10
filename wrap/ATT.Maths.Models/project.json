@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net451": {
+      "wrappedProject": "../../ATT.Maths.Models/ATT.Maths.Models.csproj",
+      "bin": {
+        "assembly": "../../ATT.Maths.Models/obj/{configuration}/ATT.Maths.Models.dll",
+        "pdb": "../../ATT.Maths.Models/obj/{configuration}/ATT.Maths.Models.pdb"
+      }
+    }
+  }
+}

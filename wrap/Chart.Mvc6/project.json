@@ -3,8 +3,8 @@
   "frameworks": {
     "dnx451": {
       "bin": {
-        "assembly": "../../src/ATT.Maths.CLT.Web/wwwroot/bin/dnx451/Chart.Mvc6.dll",
-        "pdb": "../../src/ATT.Maths.CLT.Web/wwwroot/bin/dnx451/Chart.Mvc6.pdb"
+        "assembly": "../../src/ATT.Maths.CLT.Web/Dependencies/dnx451/Chart.Mvc6.dll",
+        "pdb": "../../src/ATT.Maths.CLT.Web/Dependencies/dnx451/Chart.Mvc6.pdb"
       }
     },
     "dnxcore50": {

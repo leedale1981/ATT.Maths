@@ -41,13 +41,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ATT.Maths.CLT.Model\ATT.Maths.Models.csproj">
-      <Project>{5db37d3b-aef0-43ea-8495-901d389d0063}</Project>
-      <Name>ATT.Maths.Models</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\ATT.Maths.Models\ATT.Maths.Models.csproj">
+      <Project>{c7eb8120-1c9e-47ef-ba0f-a0d4f2cf4dde}</Project>
+      <Name>ATT.Maths.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

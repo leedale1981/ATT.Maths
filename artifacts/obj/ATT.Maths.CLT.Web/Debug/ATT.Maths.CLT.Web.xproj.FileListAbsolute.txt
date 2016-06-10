@@ -1,2 +1,1 @@
 C:\Users\leedale\Documents\src\ATT.Maths\ATT.Maths\artifacts\obj\ATT.Maths.CLT.Web\Debug\ATT.Maths.CLT.Web.xprojResolveAssemblyReference.cache
-C:\Users\leeda_000\Documents\src\ATT.Maths\artifacts\obj\ATT.Maths.CLT.Web\Debug\ATT.Maths.CLT.Web.xprojResolveAssemblyReference.cache

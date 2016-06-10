@@ -15,11 +15,7 @@
       },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
-        "framework": "DNX,Version=v4.5.1",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final"
-        }
+        "framework": "DNX,Version=v4.5.1"
       },
       "ChartJS/15.2.10": {
         "type": "package",
@@ -1658,11 +1654,7 @@
       },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
-        "framework": "DNXCore,Version=v5.0",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final"
-        }
+        "framework": "DNXCore,Version=v5.0"
       },
       "ChartJS/15.2.10": {
         "type": "package",
@@ -3877,11 +3869,7 @@
       },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
-        "framework": "DNX,Version=v4.5.1",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final"
-        }
+        "framework": "DNX,Version=v4.5.1"
       },
       "ChartJS/15.2.10": {
         "type": "package",
@@ -5523,11 +5511,7 @@
       },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
-        "framework": "DNX,Version=v4.5.1",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final"
-        }
+        "framework": "DNX,Version=v4.5.1"
       },
       "ChartJS/15.2.10": {
         "type": "package",
@@ -7169,11 +7153,7 @@
       },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
-        "framework": "DNXCore,Version=v5.0",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final"
-        }
+        "framework": "DNXCore,Version=v5.0"
       },
       "ChartJS/15.2.10": {
         "type": "package",
@@ -9797,11 +9777,7 @@
       },
       "Chart.Mvc6/1.0.0": {
         "type": "project",
-        "framework": "DNXCore,Version=v5.0",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-          "Microsoft.AspNet.Mvc.TagHelpers": "6.0.0-rc1-final"
-        }
+        "framework": "DNXCore,Version=v5.0"
       },
       "ChartJS/15.2.10": {
         "type": "package",
@@ -12420,7 +12396,7 @@
     },
     "Chart.Mvc6/1.0.0": {
       "type": "project",
-      "path": "../../../Open Source Projects/Chart.Mvc/Chart.Mvc/Chart.Mvc6/Chart.Mvc6/project.json"
+      "path": "../../wrap/Chart.Mvc6/project.json"
     },
     "bootstrap/4.0.0-alpha2": {
       "type": "package",
@@ -17846,10 +17822,12 @@
       "Twitter.Bootstrap.Bootswatch.Cyborg >= 3.2.0"
     ],
     "DNX,Version=v4.5.1": [
-      "ATT.Maths.CLT.Model >= 1.0.0-*"
+      "ATT.Maths.CLT.Model >= 1.0.0-*",
+      "Chart.Mvc6 >= 1.0.0-*"
     ],
     "DNXCore,Version=v5.0": [
-      "ATT.Maths.CLT.Model >= 1.0.0-*"
+      "ATT.Maths.CLT.Model >= 1.0.0-*",
+      "Chart.Mvc6 >= 1.0.0-*"
     ]
   }
 }

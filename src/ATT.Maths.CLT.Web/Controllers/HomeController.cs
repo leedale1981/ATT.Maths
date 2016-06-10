@@ -39,7 +39,8 @@ namespace ATT.Maths.CLT.Web.Controllers
                 new ComplexDataset
                 {
                     Data = means.Values.ToList(),
-                    Label = "Means"
+                    Label = "Means",
+                    FillColor = "#2a9fd6"
                 }
             });
 

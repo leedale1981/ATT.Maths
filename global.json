@@ -2,9 +2,7 @@
     "projects": [
         "src",
         "test",
-        "wrap",
-      "../../Chart.Mvc/Chart.Mvc/Chart.Mvc6",
-      "../Open Source Projects/Chart.Mvc/Chart.Mvc/Chart.Mvc6"
+        "wrap"
     ],
     "sdk": {
         "version": "1.0.0-rc1-update2",

@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "dnx451": {
+      "bin": {
+        "assembly": "../../src/ATT.Maths.CLT.Web/wwwroot/bin/dnx451/Chart.Mvc6.dll",
+        "pdb": "../../src/ATT.Maths.CLT.Web/wwwroot/bin/dnx451/Chart.Mvc6.pdb"
+      }
+    },
+    "dnxcore50": {
+      "bin": {
+        "assembly": "../../src/ATT.Maths.CLT.Web/wwwroot/bin/dnxcore50/Chart.Mvc6.dll",
+        "pdb": "../../src/ATT.Maths.CLT.Web/wwwroot/bin/dnxcore50/Chart.Mvc6.pdb"
+      }
+    }
+  }
+}

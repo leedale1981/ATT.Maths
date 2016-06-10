@@ -24,12 +24,14 @@
   "frameworks": {
     "dnx451": {
       "dependencies": {
-        "ATT.Maths.CLT.Model": "1.0.0-*"
+        "ATT.Maths.CLT.Model": "1.0.0-*",
+        "Chart.Mvc6": "1.0.0-*"
       }
     },
     "dnxcore50": {
       "dependencies": {
-        "ATT.Maths.CLT.Model": "1.0.0-*"
+        "ATT.Maths.CLT.Model": "1.0.0-*",
+        "Chart.Mvc6": "1.0.0-*"
       }
     }
   },
